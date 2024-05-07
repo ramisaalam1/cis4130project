@@ -2,6 +2,13 @@
 
 ## Project Description 
 
+The yellow taxi trip data can be found on the NYC TLC website. This dataset provides information about taxi trips in New York City, including location, travel times, fare amounts, payment method, passenger count, and other details. 
+
+Using this dataset, my analysis will focus on predicting the amount of the tip given total_amount, pickup location, dropoff location, passenger count, trip distance, and airport fee. From the pickup date time column, I will focus on the day of the week, weekends, and the month the trip happened. For my analysis, I will use a Linear Regression model because 'tip' is a continuous variable. 
+
+
+## Project Requriements 
+
 CIS 4130 Big Data Technologies – Semester Project
 For this semester-long project, students will build a complete machine learning pipeline that incorporates big data technologies using a cloud infrastructure.  The project is split into 6 milestones that will be due throughout the semester.  The project must be original (e.g., not copied from a previous semester, competition or other source). However, code examples can be referenced (proper citations required).
 To begin, create a Project Document in MS Word, Google Docs, etc. Create a cover page with CIS 4130, your name and e-mail address on it.  For each milestone, continue adding pages to this document throughout the semester.  For example, when turning in Milestone 3, include everything you wrote about in Milestones 1 and 2.
